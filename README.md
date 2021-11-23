@@ -1,5 +1,5 @@
 # Fraudulent-Job-Postings
-[fraudu](https://www.ctscomp.com/files/2018/08/rsz_screen-shot-2018-08-07-at-93304-am-copy.png)
+![fraudulent](https://images.tmcnet.com/tmc/misc/articles/image/2020-jan/3871346650-hacker-adobe.jpeg)
 ## Business Understanding
 ## Data Understanding
 ## Data Preparation
