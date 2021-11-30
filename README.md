@@ -3,7 +3,6 @@
 ### Author: Mellissa Valle
 ## Business Problem 
 ![Image3](https://user-images.githubusercontent.com/74070082/144143954-625bdac0-4e54-46e5-8a5a-c12884505fd3.png)
-![Image5](https://user-images.githubusercontent.com/74070082/144143013-b3cba2d0-1dea-4206-9358-428b36cee995.png)
 
 Can’t tell if a job posting is legit? Unfortunately, there are a lot of scammers out there that can and will take advantage of jobseekers. So if you think a job posting isn’t real, it probably isn’t, we humans can have an idea how to detect those, one by one. But how much time would it take a company like Indeed to accurately identify and take down thousands and thousands of fraudulent job postings? 
 #### There are several reasons why fake job postings exist: 
@@ -20,8 +19,13 @@ On the downside, the increasing adoption of online applications has also attract
 ## Data Understanding
 ![Target](https://user-images.githubusercontent.com/74070082/143786875-797c8179-3d69-4e59-afcd-58ac4695d1bc.png)
 
+Dataset used for modeling contains 17,014 legitimate and 866 fraudulent job ads (17,880 in total). All the entries were manually annotated by specialized human employees.The criteria for the classification were based on the client's suspicious activity on the system, false contact or company information, candidate complaints and periodic meticulous analysis of the clientele. 
+
+Indeed test data contains 3002 records, all from the USA.
+
 ## Data Preparation
 ![Image6](https://user-images.githubusercontent.com/74070082/144144150-d27bf530-0d03-40e8-822f-d0fd3870c94e.png)
+Most common words fraudulent job postings.
 
 ## Models
 Computers are pretty good at learning from spreadsheets of data and numbers but we humans communicate with words not with numbers, Natural Language Processing NLP is focused on enabling computers to understand and communicate in human language.
