@@ -2,6 +2,9 @@ import numpy as np
 import pandas as pd
 import string
 
+# Create our list of punctuation marks
+punctuations = string.punctuation
+
 #remove weird numbers
 def remove_number(text):
     numbers_to_remove = ['1', '2', '3', '4','5', '6', '7', '8', '9', '0', "\xa0" ]
