@@ -30,4 +30,3 @@ def remove_symbols(text):
         clean_text = clean_text.replace(sym, ' ')
     
     return clean_text
-df.text = df.text.apply(remove_symbols)
