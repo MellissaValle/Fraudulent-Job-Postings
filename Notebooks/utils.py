@@ -19,3 +19,15 @@ def remove_punctuations(text):
     for punctuation in punctuations:
         text = text.replace(punctuation, ' ')
     return text
+
+#removes weird symbols
+def remove_symbols(text):
+    symbols_to_remove = ["\xa0", " \n ", '\n', " <div> ", "<li>", '<br>', '</ul>' , '<b>'," d "," y "," q ","</li>", '<ul>','</b>', '</div>','<div', " p ", ' jz ', ' iu ','class=' ,'jz'\
+                         'jobDescriptionText' , 'jobdescriptiontext', 'class','jobsearch']
+                       
+    clean_text = text
+    for sym in symbols_to_remove:
+        clean_text = clean_text.replace(sym, ' ')
+    
+    return clean_text
+df.text = df.text.apply(remove_symbols)
