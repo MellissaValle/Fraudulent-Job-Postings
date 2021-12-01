@@ -1,5 +1,5 @@
-# Fraudulent Job Postings!! 
 ![fraudulent](https://images.tmcnet.com/tmc/misc/articles/image/2020-jan/3871346650-hacker-adobe.jpeg)
+# Fraudulent Job Postings!! 
 ### Author: Mellissa Valle
 ## Business Problem 
 ![Image3](https://user-images.githubusercontent.com/74070082/144143954-625bdac0-4e54-46e5-8a5a-c12884505fd3.png)
@@ -36,9 +36,24 @@ Computers are pretty good at learning from spreadsheets of data and numbers but 
 - Best Model:
 Tuned Logistic Regression with CountVectorizer and RandomOverSampler
 ![Model](https://user-images.githubusercontent.com/74070082/144143583-e9684750-d44d-4330-afee-d67bbeb254bf.png)
+Accuracy: 97.968%
+Recall:  82.686%
 
 ## Conclusions and Next Steps
 ![IndeedPred](https://user-images.githubusercontent.com/74070082/144143750-ed5eaa47-e1c1-45ce-98f7-d62314613877.png)
+### Conclusion
+Key words: Reduction in time!  With this model, the process of detecting fake job postings would be much quicker. Indeed must have some kind of mechanism to find these fraudulent posts, but it probably takes a while. This model analyzes the job posts and flags those that are predicted to be fake/fraudulent, making this process of flagging  much faster.
+This model will not detect immediately which ones are fraudulent to 100% but it will make it a lot easier. Instead of going through 30k I hope I can only have to go through a few thousands. 
+Indeed, my model predicted:
+Not fraudulent    28705
+Fraudulent    1297
+### Recommendations 
+
+Add  industry and department features with Selectbox, people tend to misspell and or abbreviate words(eg. IT, Information Technology). These features can potentially help flagging those fraudulent postings. 
+
+
+### Next steps
+TBD
 
 
 ## Navigating the Repository
