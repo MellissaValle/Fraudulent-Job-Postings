@@ -1,6 +1,22 @@
 ![fraudulent](https://images.tmcnet.com/tmc/misc/articles/image/2020-jan/3871346650-hacker-adobe.jpeg)
 # Fraudulent Job Postings!! 
 ### Author: Mellissa Valle
+## Table of Contents
+* [Reproducibility](#reproducibility)
+* [Business Problem](#business-problem)
+* [Business Understanding](#business-understanding)
+* [Machine Learning Models](#machine-learning-models)
+* [Conclusions and Next Steps](#conclusions-and-next-steps)
+* [Navigating the Repository](#navigating-the-repository)
+
+## Reproducibility
+### Data
+I gathered my data from these sources:
+[Kaggle Competition](https://www.kaggle.com/shivamb/real-or-fake-fake-jobposting-prediction)
+[Indeed Dataset](https://data.world/promptcloud/indeed-job-posting-dataset/workspace/project-summary?agentid=promptcloud&datasetid=indeed-job-posting-dataset)
+
+### Dependencies
+
 ## Business Problem 
 ![Image3](https://user-images.githubusercontent.com/74070082/144143954-625bdac0-4e54-46e5-8a5a-c12884505fd3.png)
 
@@ -13,6 +29,7 @@ Can’t tell if a job posting is legit? Unfortunately, there are a lot of scamme
 ## Business Understanding
 The hiring process has relatively recently been moved to the cloud. Specifically, the automated systems responsible for completing the recruitment of new employees in an online fashion, to make the hiring process faster and cost-efficient. However, the online exposure of such traditional business procedures has introduced new points of failure that may lead to privacy loss for applicants and harm the reputation of organizations. 
 On the downside, the increasing adoption of online applications has also attracted the interest of scammers. Putting at risk not only the job seekers’ privacy but also the credibility of organizations such as Indeed, Monster, CareerBuilder, etc.
+
 ![Image4](https://user-images.githubusercontent.com/74070082/144143983-181cf53d-f405-4fca-9e57-6998488b779c.png)
 
 
@@ -25,9 +42,10 @@ Indeed test data contains 3002 records, all from the USA.
 
 ## Data Preparation
 ![Image6](https://user-images.githubusercontent.com/74070082/144144150-d27bf530-0d03-40e8-822f-d0fd3870c94e.png)
+
 Most common words fraudulent job postings.
 
-## Models
+## Machine Learning Models
 Computers are pretty good at learning from spreadsheets of data and numbers but we humans communicate with words not with numbers, Natural Language Processing NLP is focused on enabling computers to understand and communicate in human language.
 ### Models tried:
 - Logistic Regression
@@ -35,7 +53,9 @@ Computers are pretty good at learning from spreadsheets of data and numbers but 
 - XGBoost Classifier 
 - Best Model:
 Tuned Logistic Regression with CountVectorizer and RandomOverSampler
+
 ![Model](https://user-images.githubusercontent.com/74070082/144143583-e9684750-d44d-4330-afee-d67bbeb254bf.png)
+
 Accuracy: 97.968%
 Recall:  82.686%
 
@@ -44,6 +64,7 @@ Recall:  82.686%
 ### Conclusion
 Key words: Reduction in time!  With this model, the process of detecting fake job postings would be much quicker. Indeed must have some kind of mechanism to find these fraudulent posts, but it probably takes a while. This model analyzes the job posts and flags those that are predicted to be fake/fraudulent, making this process of flagging  much faster.
 This model will not detect immediately which ones are fraudulent to 100% but it will make it a lot easier. Instead of going through 30k I hope I can only have to go through a few thousands. 
+
 Indeed, my model predicted:
 Not fraudulent    28705
 Fraudulent    1297
