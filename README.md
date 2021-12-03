@@ -41,7 +41,7 @@ The labelled dataset used for modeling contains 17,014 legitimate and 866 fraudu
 The Indeed dataset contains 3002 records, all from the USA.
 
 ## Data Preparation
-![Image6](https://user-images.githubusercontent.com/74070082/144144150-d27bf530-0d03-40e8-822f-d0fd3870c94e.png)
+![WORDSFAKE](https://user-images.githubusercontent.com/74070082/144646986-83731455-c0f9-45c7-a6b4-a58fc07d06a7.png)
 
 Most common words fraudulent job postings.
 
@@ -58,7 +58,7 @@ Computers are pretty good at learning from spreadsheets of data and numbers but 
 - Best Model:
 Tuned Logistic Regression with CountVectorizer and RandomOverSampler
 
-![Model](https://user-images.githubusercontent.com/74070082/144143583-e9684750-d44d-4330-afee-d67bbeb254bf.png)
+![BESTMODEL](https://user-images.githubusercontent.com/74070082/144646882-6dfb141f-ddb2-45da-8e8d-ff836d01fb58.png)
 
 Accuracy: 97.968%
 Recall:  82.686%
@@ -71,12 +71,19 @@ Key words: Reduction in time!  With this model, the process of detecting fake jo
 This model will not detect immediately which ones are fraudulent to 100% but it will make it a lot easier. Instead of going through 30k I hope I can only have to go through a few thousands. 
 
 From the Indeed dataset, my model predicted:
-- Not fraudulent    28705 and Fraudulent    1297
+- Not fraudulent    28703 and Fraudulent    1299
 - Accuracy: 97.673% and Recall: 81.818%
 
 ### Recommendations and Next steps
 
-Add  industry and department features with Selectbox, people tend to misspell and or abbreviate words(eg. IT, Information Technology). These features can potentially help flagging those fraudulent postings. 
+- Add  industry and department features with Selectbox: people tend to misspell and or abbreviate words(eg. IT, Information Technology). 
+
+- Test a dataset from different Job Search Site such: CareerBuilder, Glassdoor, Monster
+
+- Add another second language:  Spanish 
+
+These features can potentially help flagging those fraudulent postings.
+
 
 
 ## Navigating the Repository
