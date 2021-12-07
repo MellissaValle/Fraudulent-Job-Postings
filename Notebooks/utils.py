@@ -31,4 +31,7 @@ def remove_symbols(text):
     
     return clean_text
 
+<<<<<<< HEAD
 
+=======
+>>>>>>> 577c6e812d49af06c8d342c3f54c0ddc5dedc600
