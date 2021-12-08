@@ -1,5 +1,6 @@
 ![fraudulent](https://www.noidentitytheft.com/wp-content/uploads/2015/11/fake-job-ads-1024x442.png)
 # Fraudulent Job Postings!! 
+Unfortunately, there are a lot of scammers out there that can and will take advantage of jobseekers. The purpose of this project is to develop a classification model to analyze the job postings and flag those that might be fake. Using a [dataset](https://www.kaggle.com/shivamb/real-or-fake-fake-jobposting-prediction) of 17880 records that already had assigned labels, 5% fraudulent and 95% legitimate job ads, my final model had an accuracy of 97.673% and recall of 81.818%
 
 ## Table of Contents
 * [Business Problem](#business-problem)
