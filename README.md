@@ -14,7 +14,7 @@ Unfortunately, there are a lot of scammers out there that can and will take adva
 
 [www.fbi.gov/contact-us/field-offices/elpaso/news](https://www.fbi.gov/contact-us/field-offices/elpaso/news/press-releases/fbi-warns-cyber-criminals-are-using-fake-job-listings-to-target-applicants-personally-identifiable-information)
 
-Can't tell if a job posting is legit? Unfortunately, there are a lot of scammers out there that can and will take advantage of jobseekers. We humans can have an idea of how to detect those, one by one. But how much time would it take a company like Indeed to accurately identify and take down thousands and thousands of fraudulent job postings? 
+Can't tell if a job posting is legit? There are a lot of scammers out there that can take advantage of jobseekers. We humans can have an idea of how to detect those, one by one. But how much time would it take a company like Indeed to accurately identify and take down thousands and thousands of fraudulent job postings? 
 #### There are several reasons why fake job postings exist: 
 
 1. Some spammers who would get the jobseeker's email address and then sell it to other individuals. 
