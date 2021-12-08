@@ -1,6 +1,6 @@
-![fraudulent](https://images.tmcnet.com/tmc/misc/articles/image/2020-jan/3871346650-hacker-adobe.jpeg)
+![fraudulent](https://www.noidentitytheft.com/wp-content/uploads/2015/11/fake-job-ads-1024x442.png)
 # Fraudulent Job Postings!! 
-### Author: Mellissa Valle
+
 ## Table of Contents
 * [Business Problem](#business-problem)
 * [Business Understanding](#business-understanding)
@@ -101,3 +101,4 @@ These features can potentially help flagging those fraudulent postings.
 ├── utils.py <--------- functions used to clean data
 └── notebook.ipynb <--------- Completed Analysis
 ```
+### Author: Mellissa Valle
