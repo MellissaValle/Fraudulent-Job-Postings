@@ -63,6 +63,7 @@ Tuned Logistic Regression with CountVectorizer and RandomOverSampler
 - Accuracy: 97.673%  
 - Recall: 81.818%
 
+For more [(Machine Learning Models)](https://github.com/MellissaValle/Fraudulent-Job-Postings/blob/main/Notebooks/Machine_Learning_Models.ipynb)
 ## Conclusion and Next Steps
 
 ### Conclusion
